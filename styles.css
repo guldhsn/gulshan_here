@@ -140,3 +140,53 @@ footer .social-media a {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  .hero-content button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  .service-card, .portfolio-item, .blog-post {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  #services, #about, #portfolio, #contact, #blog {
+    padding: 30px 10px;
+  }
+
+  nav ul {
+    text-align: left;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .hero-content button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
