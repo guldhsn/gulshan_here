@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- Hero Section -->
-    <section id="hero">
+    <section id="hero" class="parallax">
         <video autoplay muted loop id="hero-video">
             <source src="hero-video.mp4" type="video/mp4">
         </video>
@@ -24,8 +24,7 @@
         <ul>
             <li><a href="#hero">Home</a></li>
             <li><a href="#services">Services</a></li>
-            href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+           Contact</a></li>
             <li><a href="#blog">Blog</a></li>
         </ul>
     </nav>
@@ -37,7 +36,8 @@
             <img src="service1.jpg" alt="Service 1">
             <h3>SEO Optimization</h3>
             <p>Improve your search engine rankings and drive more traffic.</p>
-               <div class="service-card hover-animate">
+        </div>
+        <div class="service-card hover-animate">
             <img src="service2.jpg" alt="Service 2">
             <h3>Content Marketing</h3>
             <p>Create and distribute valuable content to attract your audience.</p>
@@ -50,7 +50,7 @@
     </section>
 
     <!-- About Us Section -->
-    <section id="about" class="fade-in">
+    <section id="about" class="parallax">
         <h2>About Us</h2>
         <p>We are a team of passionate digital marketers dedicated to helping businesses succeed online.</p>
     </section>
@@ -81,9 +81,18 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
             <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="fade-in">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-post hover-animate">
+            <h3>Blog Post Title</h3>
+            <p>Excerpt from the blog post...</p>
             <button>Read More</button>
         </div>
-        <div class="blog-post hover-animate">
+       blog-post hover-animate">
             <h3>Blog Post Title</h3>
             <p>Excerpt from the blog post...</p>
             <button>Read More</button>
