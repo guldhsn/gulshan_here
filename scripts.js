@@ -1,2 +1,3 @@
-
-// JavaScript code can be added here for interactivity
+document.addEventListener('DOMContentLoaded', function() {
+    // Add interactivity here if needed
+});
