@@ -12,7 +12,7 @@
         <video autoplay muted loop id="hero-video">
             <source src="hero-video.mp4" type="video/mp4">
         </video>
-        <div class="hero-content">
+        <div class="hero-content fade-in">
             <h1>Welcome to Our Premium Digital Marketing Agency</h1>
             <p>Your success is our mission. Let's grow together!</p>
             <button>Get Started</button>
@@ -24,24 +24,25 @@
         <ul>
             <li><a href="#hero">Home</a></li>
             <li><a href="#services">Services</a></li>
-           Portfolio</a></li>
+            href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#blog">Blog</a></li>
         </ul>
     </nav>
 
     <!-- Services Section -->
-    <section id="services">
+    <section id="services" class="fade-in">
         <h2>Our Services</h2>
-        <div class="service-card">
+        <div class="service-card hover-animate">
             <img src="service1.jpg" alt="Service 1">
             <h3>SEO Optimization</h3>
             <p>Improve your search engine rankings and drive more traffic.</p>
-        </ src="service2.jpg" alt="Service 2">
+               <div class="service-card hover-animate">
+            <img src="service2.jpg" alt="Service 2">
             <h3>Content Marketing</h3>
             <p>Create and distribute valuable content to attract your audience.</p>
         </div>
-        <div class="service-card">
+        <div class="service-card hover-animate">
             <img src="service3.jpg" alt="Service 3">
             <h3>Social Media Management</h3>
             <p>Engage with your audience on social media platforms.</p>
@@ -49,20 +50,20 @@
     </section>
 
     <!-- About Us Section -->
-    <section id="about">
+    <section id="about" class="fade-in">
         <h2>About Us</h2>
         <p>We are a team of passionate digital marketers dedicated to helping businesses succeed online.</p>
     </section>
 
     <!-- Portfolio Section -->
-    <section id="portfolio">
+    <section id="portfolio" class="fade-in">
         <h2>Our Portfolio</h2>
-        <div class="portfolio-item">
+        <div class="portfolio-item hover-animate">
             <img src="portfolio1.jpg" alt="Portfolio 1">
             <h3>Project Title</h3>
             <p>Description of the project.</p>
         </div>
-        <div class="portfolio-item">
+        <div class="portfolio-item hover-animate">
             <img src="portfolio2.jpg" alt="Portfolio 2">
             <h3>Project Title</h3>
             <p>Description of the project.</p>
@@ -70,7 +71,7 @@
     </section>
 
     <!-- Contact Form Section -->
-    <section id="contact">
+    <section id="contact" class="fade-in">
         <h2>Contact Us</h2>
         <form>
             <label for="name">Name:</label>
@@ -80,19 +81,13 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
             <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <!-- Blog Section -->
-    <section id="blog">
-        <h2>Latest Blog Posts</h2>
-        <div class="blog-post">
+            <button>Read More</button>
+        </div>
+        <div class="blog-post hover-animate">
             <h3>Blog Post Title</h3>
             <p>Excerpt from the blog post...</p>
             <button>Read More</button>
         </div>
-        <div class="blog-post">
-                   </div>
     </section>
 
     <!-- Footer Section -->
